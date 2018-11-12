@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\Narucivanje\Data\**" />
+    <Compile Remove="Areas\Narucivanje\ViewModels\**" />
+    <Compile Remove="Areas\UpravljanjeRestoranima\Data\**" />
+    <Content Remove="Areas\Narucivanje\Data\**" />
+    <Content Remove="Areas\Narucivanje\ViewModels\**" />
+    <Content Remove="Areas\UpravljanjeRestoranima\Data\**" />
+    <EmbeddedResource Remove="Areas\Narucivanje\Data\**" />
+    <EmbeddedResource Remove="Areas\Narucivanje\ViewModels\**" />
+    <EmbeddedResource Remove="Areas\UpravljanjeRestoranima\Data\**" />
+    <None Remove="Areas\Narucivanje\Data\**" />
+    <None Remove="Areas\Narucivanje\ViewModels\**" />
+    <None Remove="Areas\UpravljanjeRestoranima\Data\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Properties\PublishProfiles\FolderProfile.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eDostava.Data\eDostava.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+</Project>
