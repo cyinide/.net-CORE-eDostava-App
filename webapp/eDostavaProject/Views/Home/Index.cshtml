@@ -1,0 +1,31 @@
+﻿@using RS1_Ispit_2017.Helper
+@using eDostava.Data.Models
+@{
+    var moderator = Context.Session.Get<Moderator>("logiraniModerator");
+    var narucilac = Context.Session.Get<Narucilac>("logiraniNarucilac");
+}
+<h1 class="mt-2">Dobrodošli na eDostava aplikaciju!</h1>
+<p>eDostava! je online web aplikacija za dostavu i naručivanje hrane.</p>
+<hr />
+<div class="row pb-4">
+    <div class="col-sm text-center">
+        <p>Pregledajte sve restorane</p>
+        <a asp-controller="Restorani" class="btn btn-lg btn-main-color-1">Restorani</a>
+    </div>
+    @if (narucilac != null)
+    {
+        <div class="col-sm text-center">
+            <p>Moj profil</p>
+            <a asp-controller="Korisnik" asp-area="KorisnikModul" class="btn btn-lg btn-main-color-1">Profil</a>
+        </div>
+    }
+    @if (moderator != null)
+    {
+        <div class="col-sm text-center">
+            <p>Administracijski dashboard</p>
+            <a asp-area="AdminModul" asp-controller="Moderator" class="btn btn-lg btn-main-color-1">Administracija</a>
+        </div>
+    }
+</div>
+<hr />
+<p>Hvala na posjeti!</p>

@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\FIT - Seminarski radovi\eDostava - seminarski(full)\seminarski_rad\webapp\eDostava.Data\bin\Debug\netcoreapp2.0\eDostava.Data.deps.json
+C:\Users\user\Desktop\FIT - Seminarski radovi\eDostava - seminarski(full)\seminarski_rad\webapp\eDostava.Data\bin\Debug\netcoreapp2.0\eDostava.Data.dll
+C:\Users\user\Desktop\FIT - Seminarski radovi\eDostava - seminarski(full)\seminarski_rad\webapp\eDostava.Data\bin\Debug\netcoreapp2.0\eDostava.Data.pdb
+C:\Users\user\Desktop\FIT - Seminarski radovi\eDostava - seminarski(full)\seminarski_rad\webapp\eDostava.Data\obj\Debug\netcoreapp2.0\eDostava.Data.csprojAssemblyReference.cache
+C:\Users\user\Desktop\FIT - Seminarski radovi\eDostava - seminarski(full)\seminarski_rad\webapp\eDostava.Data\obj\Debug\netcoreapp2.0\eDostava.Data.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\FIT - Seminarski radovi\eDostava - seminarski(full)\seminarski_rad\webapp\eDostava.Data\obj\Debug\netcoreapp2.0\eDostava.Data.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\FIT - Seminarski radovi\eDostava - seminarski(full)\seminarski_rad\webapp\eDostava.Data\obj\Debug\netcoreapp2.0\eDostava.Data.AssemblyInfo.cs
+C:\Users\user\Desktop\FIT - Seminarski radovi\eDostava - seminarski(full)\seminarski_rad\webapp\eDostava.Data\obj\Debug\netcoreapp2.0\eDostava.Data.dll
+C:\Users\user\Desktop\FIT - Seminarski radovi\eDostava - seminarski(full)\seminarski_rad\webapp\eDostava.Data\obj\Debug\netcoreapp2.0\eDostava.Data.pdb

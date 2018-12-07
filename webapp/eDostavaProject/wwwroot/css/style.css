@@ -1,0 +1,243 @@
+/* --- General styles --- */
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    /* padding-top: 55px; */
+    font-family: 'Open Sans', sans-serif;
+}
+.full-width {
+    width: 100%;
+}
+.full-circle {
+    border-radius: 100%;
+}
+
+
+/* Navbar style */
+.navbar {
+    position: sticky;
+    z-index: 5;
+    top: 0;
+}
+.navbar.bg-light {
+    padding-bottom: 10px;
+    background: #fff !important;
+    box-shadow: 0 5px 5.5px 1px rgba(0, 0, 0, .05);
+}
+.main-header-container {
+    width: 100%;
+    background-image: url(../images/wallpapers/main_background.jpg);
+    position: relative;
+    background-size: cover;
+    min-height: 425px;
+}
+.logo-home {
+    padding: 100px 50px 25px 50px;
+}
+.main-logo {
+    background: #CB202D;
+    border-radius: 5px;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    margin: auto;
+}
+.main-logo-name {
+    margin: auto;
+    font-size: 37px;
+    color: #fff;
+}
+.main-logo-name:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.main-header-container .text-wrap {
+    padding-bottom: 25px;
+}
+.header-text h1.main-title {
+    color: #fff;
+    text-align: center;
+    line-height: 34px;
+    font-size: 65px;
+}
+.header-text h2.main-subtitle {
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+}
+/* Small logo */
+.small-logo .main-logo {
+    margin: 25px 50px 25px -10px;
+    width: 100px;
+    height: 100px;
+}
+.main-header-container.small-header {
+    min-height: auto;
+}
+.small-logo .logo-home {
+    padding: 0;
+}
+.small-logo .main-logo .main-logo-name {
+    font-size: 20px;
+}
+.small-logo {
+    display: inline-block;
+}
+.small-logo-text {
+    display: inline-block;
+}
+.small-logo-text .header-text h1.main-title {
+    font-size: 45px;
+}
+
+/* --- Korpa styles --- */
+.korpa-outer-wrap {
+    /* padding: 10px 0px; */
+}
+.korpa-stavka {
+    border-bottom: 1.75px dotted #FFCB9C;
+}
+
+.korpa-details {
+    font-size: 9px;
+}
+.korpa-sum {
+    padding: 10px 0;
+}
+.korpa-top {
+    border-bottom: 1.75px dotted #FFCB9C;
+}
+.btn-stavka-ukloni {
+    padding: 1px 2px;
+    height: 20px;
+    width: 20px;
+}
+.btn-stavka-ukloni i {
+    font-size: 9px;
+}
+.korpa-delete-all {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* --- Custom Button styles --- */
+/* Main 1 button style */
+.btn-main-color-1 {
+    color: #fff;
+    background-color: #CB202D;
+    border-color: #CB202D;
+    opacity: .9;
+    transition: opacity .2s;
+}
+.btn-main-color-1:hover,
+.btn-main-color-1:focus,
+.btn-main-color-1:active {
+    color: #fff;
+    opacity: 1;
+}
+.alertify-logs .btn {
+    margin-left: 25px;
+}
+
+/* Moj profil */
+.live-edit .edit .live-edit-section {
+    color: #007bff;
+}
+.live-edit-section  {
+    color: #aaa;
+    cursor: pointer;
+}
+.live-edit-section:hover {
+    color: #007bff;
+}
+.live-edit div:not(.edit) input,
+.live-edit div:not(.edit) label,
+.live-edit div:not(.edit) select {
+    border-color: transparent;
+    pointer-events: none;
+    font-weight:;
+}
+.live-edit label {
+    font-size: 12px;
+    font-weight: 600;
+}
+.live-edit:not(.edit) input[type=submit],
+.live-edit:not(.edit) a.cancel {
+    visibility: hidden;
+}
+.korisnik-page-wrap {
+    display: flex;
+}
+.korisnik-left-wrap .btn-group-vertical {
+    width: 100%;
+}
+.korisnik-left-wrap .btn-group-vertical a {
+    transition: border .2s;
+    text-align: left;
+}
+.korisnik-left-wrap {
+    padding-left: 0;
+    border-right: 1px solid #eee;
+}
+.korisnik-left-wrap .btn-group-vertical a.btn:focus,
+.korisnik-left-wrap .btn-group-vertical a.btn:active {
+    background: #5a6268;
+}
+:root {
+    --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: calc(var(--jumbotron-padding-y) * 2);
+        padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+    footer p {
+        margin-bottom: .25rem;
+    }
+
+.box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+
+/* Input fields - password toggle visibility btns */
+.see-password-input {
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity .25s;
+}
+.see-password-input:hover,
+.see-password-input:focus,
+.see-password-input:active {
+    opacity: .7;
+}
